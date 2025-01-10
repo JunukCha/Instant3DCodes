@@ -1,3 +1,38 @@
+# Easy to install & run
+## Install
+```
+source scripts/install.sh
+```
+## Download
+[weights](https://drive.google.com/file/d/1SXQco_5n0yQBeuEsLO5-KR-jJQ8v9gxF/view?usp=sharing) 
+
+Download and put it in `ckpts` folder.
+
+## Huggingface login
+```
+huggingface-cli login
+```
+Enter your token. [Huggingface token](https://huggingface.co/settings/tokens)
+
+You need to login to download sd2.1 in `ckpts` folder.
+
+## Run
+```
+soruce scripts/run.sh
+```
+## Result
+Text prompt: _a white man wearing a steampunk hat is singing_
+
+### RGB
+https://github.com/user-attachments/assets/ab498a5b-809f-4f4a-85ff-b2f60ee30457
+
+### Depth
+https://github.com/user-attachments/assets/86bc150a-23a0-4ef2-8d35-698562060c1f
+
+### Normal
+https://github.com/user-attachments/assets/cb9a16bd-2b8d-4240-8ec7-9966edef6f4b
+
+
 # Official Instant3D Codes
 ## This is the official implementation of our paper [Instant3D: Instant Text-to-3D Generation](https://arxiv.org/abs/2311.08403).
 ## The project page is [here](https://ming1993li.github.io/Instant3DProj/).
