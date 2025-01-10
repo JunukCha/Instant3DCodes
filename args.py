@@ -4,7 +4,7 @@ import math
 parser = argparse.ArgumentParser()
 # Generalpod
 parser.add_argument('--desc', help='modification description', default='',)
-parser.add_argument('--pretrained_path', help='pretrained weights for large models', default='/home/liming/projects/Text23D_Downloaded_weights',)
+parser.add_argument('--pretrained_path', help='pretrained weights for large models', default='ckpts',)
 parser.add_argument('--outdir', help='Where to save the results', default='./experiments', type=str)
 parser.add_argument('--gpu-ids', help='GPU IDs', type=str, default='1,2')
 parser.add_argument('--batch-size', help='Total batch size', type=int)
@@ -25,7 +25,7 @@ parser.add_argument('--cudnn_benchmark', help='Improves training speed', type=bo
 parser.add_argument('--num_workers', help='DataLoader worker number', type=int, default=8)
 
 # Evaluating model weights
-parser.add_argument('--evaluate', help='Saved model weights for evaluating', type=str, default='./model-pretrained.pth')
+parser.add_argument('--evaluate', help='Saved model weights for evaluating', type=str, default='./ckpts/model-pretrained.pth')
 
 # Camera pose sampling
 parser.add_argument('--max_depth', type=float, default=10.0, help="farthest depth")
