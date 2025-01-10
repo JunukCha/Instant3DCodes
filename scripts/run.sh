@@ -1,0 +1,1 @@
+python -m torch.distributed.launch --nproc_per_node=1 --master_port=2349 ./main.py --batch-size 1 --random_seed 666 --gpu-ids 0
