@@ -62,8 +62,8 @@ class StableDiffusion(nn.Module):
         # git clone https://huggingface.co/stabilityai/stable-diffusion-2-1-base --depth 1
         # cd stable-diffusion-2-1-base
         # git fetch --unshallow
-        from huggingface_hub import login
-        login('')
+        # from huggingface_hub import login
+        # login('')
         # download_path = None
         # if download_path is not None:
         #     if hf_key is not None:
