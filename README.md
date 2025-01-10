@@ -4,7 +4,7 @@
 source scripts/install.sh
 ```
 ## Download
-[weights](https://drive.google.com/file/d/1SXQco_5n0yQBeuEsLO5-KR-jJQ8v9gxF/view?usp=sharing) 
+Instant3D network [weights](https://drive.google.com/file/d/1SXQco_5n0yQBeuEsLO5-KR-jJQ8v9gxF/view?usp=sharing) 
 
 Download and put it in `ckpts` folder.
 
